@@ -11,6 +11,5 @@ vowels.each do |vowel|
   song.gsub!(/[aeiou]/, vowel)
   #Descomentar línea 13 en OSx
   `say "#{song}" -v diego`
-  puts normal
   p song
 end

@@ -6,3 +6,23 @@
 
 a = [1, 2, 3, 9, 12, 31, 'domingo']
 b = %w[lunes martes miércoles jueves viernes sábado domingo]
+
+# 1
+a_ab = a + b
+print a_ab
+puts "\n--------------------------------------------------"
+
+# 2
+a_une = a | b
+print a_une
+puts "\n--------------------------------------------------"
+
+# 3
+a_rep = a & b
+print a_rep
+puts "\n--------------------------------------------------"
+
+# 4. 
+a_mezcla = a.zip(b).flatten
+print a_mezcla
+puts "\n"

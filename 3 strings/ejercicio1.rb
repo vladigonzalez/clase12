@@ -5,3 +5,13 @@
 
 cadena = 'Hola Mundo!'
 caracter = 'o'
+
+def busca_chr?(str, c)
+  str.include?(c)
+end
+
+if busca_chr?(cadena, caracter)
+	puts "#{cadena} Sí Contiene Letra (#{caracter}) :)"
+else
+	puts ":( Letra (#{caracter}) no encontrada!"
+end
